@@ -1,0 +1,41 @@
+{
+  "midi_input_name": "Roland Digital Piano",
+  "midi_output_name": "Python Mirror Port",
+  "enable_midi_forwarding": false,
+
+  "serial_port": "COM4",
+  "baud_rate": 115200,
+
+  "lowest_midi_note": 21,
+  "num_keys": 88,
+  "led_offset": 0,
+
+  "frame_rate": 60,
+
+  "sustain_cc": 64,
+  "sostenuto_cc": 66,
+
+  "color_maps": [
+    {
+      "name": "Split Red Blue",
+      "default": [0, 0, 0],
+      "ranges": [
+        { "from": 0, "to": 43, "color": [255, 0, 0] },
+        { "from": 44, "to": 87, "color": [0, 80, 255] }
+      ]
+    },
+    {
+      "name": "Split Green Yellow",
+      "default": [0, 0, 0],
+      "ranges": [
+        { "from": 0, "to": 43, "color": [0, 255, 80] },
+        { "from": 44, "to": 87, "color": [255, 180, 0] }
+      ]
+    },
+    {
+      "name": "Full Purple",
+      "default": [120, 0, 255],
+      "ranges": []
+    }
+  ]
+}

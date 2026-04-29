@@ -35,9 +35,9 @@ The system is designed to be simple, responsive, and easy to extend.
 
 ---
 
-## Demo
+## Demo (Click to Play)
 
-[![MIDI LED Visualizer (click to watch)](media/demo_thumbnail.png)](YOUR_VIDEO_LINK)
+[![MIDI LED Visualizer Demo](screenshots/demo_thumbnail.jpg)](https://www.youtube.com/watch?v=XFutyCQXSFY)
 
 ---
 
